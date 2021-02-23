@@ -7208,7 +7208,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 15px 75px 15px 25px;
+  padding: 15px 30px;
   position: relative; }
   .btn .fas {
     position: absolute;
@@ -7224,6 +7224,35 @@ body {
     .btn.btn-secondary:hover {
       background-color: #420033; }
 
-body {
-  background: salmon !important;
-  padding: 40px; }
+.styleguide img.logo {
+  display: block;
+  margin-bottom: 1rem;
+  max-width: 400px; }
+
+.styleguide pre {
+  font-family: Andale Mono;
+  background-color: #000;
+  border-radius: 6px;
+  color: #fff;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 10px; }
+
+.styleguide .styleguide-group {
+  border-bottom: 1px solid #999;
+  margin: 40px 0; }
+  .styleguide .styleguide-group:last-child {
+    border-bottom: none; }
+
+.styleguide .styleguide-image {
+  border: 1px solid #999;
+  border-radius: 6px;
+  display: block;
+  max-width: 300px;
+  margin-bottom: 20px; }
+
+.jumbotron {
+  margin-bottom: 0; }
+
+header {
+  margin-bottom: 2rem; }
