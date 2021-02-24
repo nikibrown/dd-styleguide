@@ -7196,6 +7196,9 @@ a.text-dark:hover, a.text-dark:focus {
   .container-xl {
     max-width: 1180px !important; } }
 
+body {
+  padding-top: 50px; }
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -7353,3 +7356,6 @@ body {
 
 header {
   margin-bottom: 2rem; }
+
+.anchor {
+  padding-top: 70px; }
