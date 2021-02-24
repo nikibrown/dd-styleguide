@@ -7258,7 +7258,7 @@ body {
     color: #fff; }
     .btn.btn-reverse:before {
       bottom: 0;
-      background-color: rgba(255, 255, 255, 0.25);
+      background-color: rgba(0, 0, 0, 0.1);
       content: '';
       left: 0;
       opacity: 0;
@@ -7286,7 +7286,7 @@ body {
 
 .styleguide .styleguide-group {
   border-bottom: 1px solid #999;
-  margin: 40px 0;
+  margin: 20px 0;
   padding: 20px; }
   .styleguide .styleguide-group:last-child {
     border-bottom: none; }
