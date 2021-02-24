@@ -18,8 +18,15 @@
     .styleguide-group {
         border-bottom: 1px solid #999;
         margin: $base-spacing-unit * 2 0;
+        padding: $base-spacing-unit;
 
         &:last-child {
+            border-bottom: none;
+        }
+
+        &.styleguide-group-blue {
+            background: #2196f3;
+            background: linear-gradient(115deg, #2196f3 20%, #1f54f2 100%);
             border-bottom: none;
         }
     }
