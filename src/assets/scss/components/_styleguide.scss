@@ -5,6 +5,74 @@
         max-width: 400px;
     }
 
+    .color {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.16);
+        height: 125px;
+        width: 125px;
+
+        &.primary-blue {
+            background-color: $primary-blue;
+        }
+        &.primary-dark-blue {
+            background-color: $primary-dark-blue;
+        }
+        &.secondary-teal {
+            background-color: $secondary-teal;
+        }
+        &.secondary-green {
+            background-color: $secondary-green;
+        }
+        &.secondary-yellow {
+            background-color: $secondary-yellow;
+        }
+        &.secondary-purple {
+            background-color: $secondary-purple;
+        }
+        &.secondary-turquoise {
+            background-color: $secondary-turquoise;
+        }
+        &.secondary-dark-green {
+            background-color: $secondary-dark-green;
+        }
+        &.secondary-burnt-orange {
+            background-color: $secondary-burnt-orange;
+        }
+        &.secondary-dark-purple {
+            background-color: $secondary-dark-purple;
+        }
+        &.secondary-navy-blue {
+            background-color: $secondary-navy-blue;
+        }
+        &.neutral-black {
+            background-color: $neutral-black;
+        }
+        &.neutral-gray1 {
+            background-color: $neutral-gray1;
+        }
+        &.neutral-gray2 {
+            background-color: $neutral-gray2;
+        }
+        &.neutral-gray3 {
+            background-color: $neutral-gray3;
+        }
+        &.neutral-gray4 {
+            background-color: $neutral-gray4;
+        }
+        &.neutral-gray5 {
+            background-color: $neutral-gray5;
+        }
+        &.neutral-gray6 {
+            background-color: $neutral-gray6;
+        }
+        &.neutral-gray7 {
+            background-color: $neutral-gray7;
+        }
+        &.neutral-white {
+            background-color: $neutral-white;
+        }
+    }
+
     pre {
         font-family: Andale Mono;
         background-color: #000;
