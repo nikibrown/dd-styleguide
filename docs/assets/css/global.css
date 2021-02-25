@@ -7419,3 +7419,14 @@ header {
 
 .anchor {
   padding-top: 70px; }
+
+.col-inner {
+  background-color: salmon;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center; }
+
+.row.grid-example {
+  background-color: #efefef;
+  margin-bottom: 20px;
+  padding: 20px 0; }

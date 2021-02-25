@@ -119,3 +119,18 @@ header {
 .anchor {
     padding-top: 70px;
 }
+
+.col-inner {
+    background-color: salmon;
+    margin-bottom: $base-spacing-unit;
+    padding: $base-spacing-unit;
+    text-align: center;
+}
+
+.row {
+    &.grid-example {
+        background-color: #efefef;
+        margin-bottom: $base-spacing-unit;
+        padding: $base-spacing-unit 0;
+    }
+}
