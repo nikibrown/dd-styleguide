@@ -81,12 +81,14 @@
         display: inline-block;
         font-size: 1rem;
         padding: 10px;
+        &.inline {
+            display: inline;
+        }
     }
 
     .styleguide-group {
         border-bottom: 1px solid #999;
-        margin: $base-spacing-unit 0;
-        padding: $base-spacing-unit;
+        @extend .py-2;
 
         &:last-child {
             border-bottom: none;
@@ -96,6 +98,10 @@
             background: #2196f3;
             background: linear-gradient(115deg, #2196f3 20%, #1f54f2 100%);
             border-bottom: none;
+        }
+
+        & > :last-child {
+            margin-bottom: 0 !important;
         }
     }
 
@@ -132,5 +138,13 @@ header {
         background-color: #efefef;
         margin-bottom: $base-spacing-unit;
         padding: $base-spacing-unit 0;
+    }
+}
+
+.styleguide-section {
+    border-bottom: 1px solid #999;
+    @extend .py-3;
+    &:last-child {
+        border-bottom: none;
     }
 }

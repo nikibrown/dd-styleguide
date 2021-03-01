@@ -1,0 +1,19 @@
+// desktop
+
+.section-spacing-sm {
+    padding: $base-spacing-unit * 2 0; // 32px 0
+}
+
+.section-spacing-md {
+    padding: $base-spacing-unit * 4 0; // 64px 0
+}
+
+.section-spacing-lg {
+    padding: $base-spacing-unit * 6 0; // 96px 0
+}
+
+.section-spacing-xl {
+    padding: $base-spacing-unit * 8 0; // 128px 0
+}
+
+// for mobile half the size? 16/32/48/64?
