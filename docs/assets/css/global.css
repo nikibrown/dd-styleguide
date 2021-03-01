@@ -7277,6 +7277,9 @@ h4, .h4 {
 .font-weight-bold {
   font-weight: 700; }
 
+.text-muted {
+  color: rgba(0, 0, 0, 0.6) !important; }
+
 p {
   font-size: 0.875rem;
   font-weight: 300;
@@ -7309,14 +7312,14 @@ small {
 
 .btn {
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   overflow: hidden;
   padding: 10px 24px;
   position: relative; }
   @media (min-width: 768px) {
     .btn {
-      font-size: 16px;
+      font-size: 1rem;
       padding: 12px 28px; } }
   .btn span {
     position: relative;
@@ -7374,6 +7377,29 @@ small {
       z-index: 9000; }
     .btn.btn-reverse:hover:before, .btn.btn-reverse.active:before {
       opacity: 1; }
+
+.card {
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  margin-bottom: 1rem; }
+  @media (min-width: 768px) {
+    .card {
+      margin-bottom: 0;
+      height: 100%; } }
+  .card .card-body {
+    padding: 1rem; }
+    @media (min-width: 768px) {
+      .card .card-body {
+        padding: 1.5rem; } }
+  .card .card-footer {
+    background: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+    padding: 1rem; }
+    @media (min-width: 768px) {
+      .card .card-footer {
+        padding: 1rem 1.5rem; } }
+    .card .card-footer p {
+      margin-bottom: 0; }
 
 .styleguide img.logo {
   display: block;
