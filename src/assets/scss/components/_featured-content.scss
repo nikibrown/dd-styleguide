@@ -1,0 +1,38 @@
+.cta-img {
+    float: left;
+    @extend .mr-2;
+}
+
+.featured-content {
+    @extend .pt-2;
+    @extend .mb-2;
+    // border-top: 1px solid $neutral-gray6;
+
+    .media {
+        align-items: center;
+        margin-bottom: 2rem;
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 0;
+        }
+    }
+
+    .media-body {
+        h5,
+        p {
+            @extend .mb-0;
+        }
+
+        a {
+            font-weight: 700;
+        }
+    }
+
+    &.featured-content-1 {
+        .btn {
+            margin-top: 2rem;
+            @include media-breakpoint-up(lg) {
+                margin-top: 0;
+            }
+        }
+    }
+}
