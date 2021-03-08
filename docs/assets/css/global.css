@@ -7400,6 +7400,22 @@ small {
     .card {
       margin-bottom: 0;
       height: 100%; } }
+  .card.card-video .card-img-container {
+    position: relative; }
+    .card.card-video .card-img-container:before {
+      background: url(../img/play-round.svg);
+      content: '';
+      height: 93px;
+      left: 50%;
+      opacity: 0.8;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      transition: all 0.2s ease-in-out;
+      width: 93px;
+      z-index: 9999; }
+    .card.card-video .card-img-container:hover:before {
+      opacity: 1; }
   .card .card-body {
     padding: 1rem; }
     @media (min-width: 768px) {
